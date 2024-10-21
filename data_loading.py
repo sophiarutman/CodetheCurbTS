@@ -1,5 +1,8 @@
 import requests
 import pandas as pd
+from datetime import datetime
+import time  # For adding a delay
+import os
 
 # Fetch the data from the API (URL given on the website)
 url = "https://api.exactpark.com/api/v2/arlington/status/zones"
@@ -24,3 +27,10 @@ df.to_csv('data/parking_stall_status.csv', index=False)
 print(df.info())
 print(df.head(5))
 print(df.tail(5))
+
+
+######                      ######
+###### FETCH DATA OVER TIME ######
+######                      ######
+
+# Since this API does in real time data, we want to collect some data and append it to the dataset every 30 minutes

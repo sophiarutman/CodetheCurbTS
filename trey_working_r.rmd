@@ -79,8 +79,14 @@ Along with the API data that comes with certain fields obtained from the fetch r
 
 The website says "The developer may want to tie the stall status back into the County parking inventory. The parking meter data is available via the County GIS Open Data (https://gisdata-arlgis.opendata.arcgis.com). This data is free to download. The parking meter data contains meter identifiers, block number, full street, Metro Area as well as parking information such as time limits, pricing and other regulation information. The real-time data can be linked back to the meter data through the BlockFaceID. Each meter in the project area has a BlockFaceID in the meter data."
 
+So if we wanted to work with GIS data to supplement the real time data that we get from the API we can get that from the website above
 
 
+## Project Ideas
+
+WHAT IF: We did a continuous log of the data over the week of Halloween (I made a script that runs overtime, so we can keep getting the data every 30 minutes), and did a Halloween themed presentation talking about how busy Arlington is around the holidays? 
+
+This will allow us to take the current data that we've collected and visualize it/analyze it over time, maybe build some models or something like that. It won't stop us from visualizing one specific dataset and then exporting that to the larger dataset we collect over time.  
 
 
 
