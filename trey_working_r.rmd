@@ -1,1 +1,31 @@
-Most likely to be used for Trey's Stats work
+---
+title: "Trey's Stat's Work"
+author: Trey Roark
+---
+
+Hey queens, this is Trey's Code the Curb working file. 
+
+
+# Project Work
+
+## Project Overview
+
+There are a few data tools available now that can serve as examples of how visualization and data tools can improve the parking experience (Park Mobile's “Availability” layer (https://www.youtube.com/watch?v=Tiq5GfAoHrg); eXactnav app; CurbIQ website (https://www.curbiq.io/)). However, we want to know what else you can do with data to make parking better for drivers and other road users in Arlington. How else can this data be used or displayed to achieve the pilot project's goals? 
+
+## Project Thoughts
+
+I do think we're gonna need to brainstorm a little more than just basic visualizations after I get the data, it almost seems like they're going for a shark tank type of ordeal. Maybe we can take a data science perspective and give some trends that we see in the data provided by the API
+
+
+## Data Loading
+
+To ensure the data loading from the API is achieved efficiently, I'll be using the corresponding Python file, `trey_working.py`, to load the data from the API, and I'll use R, what I'm familiar with, for data manipulation and visualizations. 
+
+
+## Visualization Ideas
+
+
+
+
+
+
